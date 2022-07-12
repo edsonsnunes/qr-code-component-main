@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+    .telaCompleta{
+        background-color:hsl(212, 45%, 89%);
+        height: 100vh;
+        
+    }
+
+    .cartao{
+        background-color: white;
+        width: 250px;
+        border-radius: 15px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img img{
+        width: 225px;
+        border-radius: 6px;
+        position: relative;
+        top: 13px;
+       
+    }
+    .displayFlex{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 25%;
+    }
+
+    .textos{
+        padding: 10px;
+    }
+
+    .textos h1 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 14px;
+        color: hsl(218, 44%, 22%);
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        
+        
+    }
+
+    .textos p{
+        font-size: 15px;
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: hsl(220, 15%, 55%);
+        font-family: 'Outfit', sans-serif;
+        font-weight: 200;
+    }
